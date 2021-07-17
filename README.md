@@ -1,12 +1,14 @@
 #  如何使用Git和GitHub
 
-![](img/git_1.png)
-
 ![](./img/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy91RFJrTVdMaWEyOGdmYkNUaFFvemtIM0lCemRTTTVJckFadjVDakM3QTJjU0wwS3JRQVFJZkQ3a2liQ2pwUHRjandFSFdpY0hGbXc1TTlHcjZWTGpEV2xpY0EvNjQw.png)
 
 #### 1、什么是Git？
 
 ​	Git 是一个免费的开源 分布式版本控制系统，旨在快速高效地处理从小到大的所有项目。
+
+#### Git工作流程
+
+![](img/git_1.png)
 
 #### 2、安装git
 
