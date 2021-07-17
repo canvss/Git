@@ -106,7 +106,7 @@ git commit -m '直播功能'
 git log 查看版本
 ```
 
-![](/Users/endless/Desktop/GitHub/USE_GitHub/img/git_log.png)
+![](img/git_log.png)
 
 
 
@@ -117,7 +117,7 @@ git reflog
 git reset --hard 1d83b43409bc59c2175efa2a442477d1edc75b14
 ```
 
-![](/Users/endless/Desktop/GitHub/USE_GitHub/img/reset_hard.png)
+![](img/reset_hard.png)
 
 此时html代码为
 
@@ -142,7 +142,7 @@ endless@EndlessdeMacBook-Pro blogs % git reset --hard 7315226
 HEAD is now at 7315226 直播
 ```
 
-![](/Users/endless/Desktop/GitHub/USE_GitHub/img/git_log.png)
+![](img/git_log.png)
 
 此时html代码：
 
