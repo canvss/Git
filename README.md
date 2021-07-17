@@ -1,6 +1,6 @@
 #  如何使用Git和GitHub
 
-
+![](img/git_1.png)
 
 ![](./img/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy91RFJrTVdMaWEyOGdmYkNUaFFvemtIM0lCemRTTTVJckFadjVDakM3QTJjU0wwS3JRQVFJZkQ3a2liQ2pwUHRjandFSFdpY0hGbXc1TTlHcjZWTGpEV2xpY0EvNjQw.png)
 
@@ -178,4 +178,4 @@ endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html
 ```
 
 
-![](img/git_1.png)
+
