@@ -178,4 +178,4 @@ endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html
 ```
 
 
-
+![](img/git_1.png)
