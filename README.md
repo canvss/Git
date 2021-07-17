@@ -1,4 +1,4 @@
-#  How to use git and github
+#  如何使用Git和GitHub
 
 
 
