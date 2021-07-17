@@ -1,6 +1,8 @@
 ![](img/rixan4h4z8y94eq89som.png)
 
-支持原创作者：https://dev.to/lydiahallie
+原文地址：https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
+原文作者：Lydia Hallie
+
 # 🌳🚀 CS 可视化：有用的 Git 命令 
 
 ## 合并
