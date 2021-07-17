@@ -28,7 +28,7 @@ git reset HEAD 文件名
 git checkout -- 文件名
 ```
 
-#### blogs项目使用git案例
+#### 4、blogs项目使用git案例
 
 1.首先写一个简单功能的html
 
@@ -176,4 +176,6 @@ M	index.html
 ```
 endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html 
 ```
+
+
 
