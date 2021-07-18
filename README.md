@@ -272,9 +272,9 @@ endless@EndlessdeMacBook-Pro blog % git branch
 
 > ### 推荐阅读：
 
-> ##### 	[和我一起学习Django👍](https://github.com/epover/LearnDjango)
-> ##### 	[🌳🚀 CS 可视化：有用的 Git 命令](https://github.com/epover/Learn_GitHub/blob/main/%F0%9F%8C%B3%F0%9F%9A%80%20CS%20%E5%8F%AF%E8%A7%86%E5%8C%96%EF%BC%9A%E6%9C%89%E7%94%A8%E7%9A%84%20Git%20%E5%91%BD%E4%BB%A4.md)
-> #####     [和我一起学习WebService👍](https://github.com/epover/WebService) 
+##### 	[和我一起学习Django👍](https://github.com/epover/LearnDjango)
+##### 	[🌳🚀 CS 可视化：有用的 Git 命令](https://github.com/epover/Learn_GitHub/blob/main/%F0%9F%8C%B3%F0%9F%9A%80%20CS%20%E5%8F%AF%E8%A7%86%E5%8C%96%EF%BC%9A%E6%9C%89%E7%94%A8%E7%9A%84%20Git%20%E5%91%BD%E4%BB%A4.md)
+#####   [和我一起学习WebService👍](https://github.com/epover/WebService) 
 
 
 
