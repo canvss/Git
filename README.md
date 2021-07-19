@@ -9,7 +9,7 @@
 
 ![](img/git_1.png)
 
-### 安装git
+## 安装git
 
 ```
 brew install git
