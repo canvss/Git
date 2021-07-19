@@ -3,13 +3,13 @@
 
 ![](./img/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy91RFJrTVdMaWEyOGdmYkNUaFFvemtIM0lCemRTTTVJckFadjVDakM3QTJjU0wwS3JRQVFJZkQ3a2liQ2pwUHRjandFSFdpY0hGbXc1TTlHcjZWTGpEV2xpY0EvNjQw.png)
 
-### 什么是Git？
+# 什么是Git？
 
 ​	Git 是一个免费的开源 分布式版本控制系统，旨在快速高效地处理从小到大的所有项目。
 
 ![](img/git_1.png)
 
-## 安装git
+### 安装git
 
 ```
 brew install git
