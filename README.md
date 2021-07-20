@@ -1,11 +1,11 @@
-#  如何使用Git和GitHub
+##  如何使用Git和GitHub
 
 
 ![](./img/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy91RFJrTVdMaWEyOGdmYkNUaFFvemtIM0lCemRTTTVJckFadjVDakM3QTJjU0wwS3JRQVFJZkQ3a2liQ2pwUHRjandFSFdpY0hGbXc1TTlHcjZWTGpEV2xpY0EvNjQw.png)
 
-# 什么是Git？
+### 什么是Git？🥸
 
-​	Git 是一个免费的开源 分布式版本控制系统，旨在快速高效地处理从小到大的所有项目。
+​	Git 是一个免费的开源 分布式版本控制系统，旨在快速高效地处理从小到大的所有项目。😄
 
 ​	首现我们需要知道
 
@@ -22,6 +22,12 @@
 
 
 ![](img/git_1.png)
+
+
+
+> Git 是由 Linux 之父 Linus Tovalds 为了更好地管理linux内核开发而创立的分布式版本控制／软件配置管理软件。
+
+
 
 ### 安装git
 
@@ -46,9 +52,9 @@ git -help	查看帮助
 
 
 
-### blogs项目使用git案例
+### blogs项目使用git案例,让大家对git又一个认识
 
-###### 1.首先写一个简单功能的html
+###### 		1.首先写一个简单功能的html
 
 ```html
 <!DOCTYPE html>
@@ -65,7 +71,7 @@ git -help	查看帮助
 
 在blogs文件下初始化项目添加到暂存区和提交
 
-###### 2.第一次提交登录功能
+###### 		2.第一次提交登录功能
 
 ```
 git init
@@ -76,7 +82,7 @@ git commit -m '登录功能'
 
 
 
-###### 3.第二次提交注册功能
+###### 		3.第二次提交注册功能
 
 ```html
 <!DOCTYPE html>
@@ -99,7 +105,7 @@ git add index.html
 git commit -m '注册功能'
 ```
 
-###### 4.第三次提交直播功能
+###### 		4.第三次提交直播功能
 
 ```html
 <!DOCTYPE html>
@@ -128,7 +134,7 @@ git log 查看版本
 
 
 
-###### 5.现在我们想要删除直播功能，回到注册功能代码
+###### 		5.现在我们想要删除直播功能，回到注册功能代码
 
 ```
 git reflog
@@ -195,7 +201,7 @@ M	index.html
 endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html 
 ```
 
-###### 总结：现在理解了Git是如何跟踪代码修改的，每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。
+###### 总结：现在理解了Git是如何跟踪代码修改的，每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。✌️✌️
 
 
 
@@ -207,7 +213,9 @@ endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html
 
 ### 分支（master）:
 
-##### 			案列：现在我们的项目有登录、注册、直播功能，现在需要新增功能为商城，商城功能写了一半（比如花了半个月），现在直播功能出现bug😩😩,需要调试我们应该怎么办呢？难道要放弃快完成的商城功能，回到直播功能调试bug吗？这里我们可以用到分支了。
+##### 			案列：
+
+###### 					现**<u>在我们的项目有登录、注册、直播功能，现在需要新增功能为商城，商城功能写了一半（比如花了半个月）🥱，现在直播功能出现bug😩😩,需要调试我们应该怎么办呢？难道要放弃快完成的商城功能，回到直播功能调试bug吗？😭😭这里我们可以用到分支了。</u>**
 
 ###### 	1、在写新功能模块时，创建dev分支用于开发新的模块，再创建一个bug分支用于调试bug
 
@@ -236,7 +244,7 @@ git checkout dev
 
 ![](img/gitsc.png)	
 
-此时商城功能开发到一半，直播功能出现bug，我们需要提交商城功能代码，切换到master主分支，创建一个bug分支用于调试bug，并且不影响商城功能的开发
+此时商城功能开发到一半，直播功能出现bug，我们需要提交商城功能代码，切换到master主分支，创建一个bug分支用于调试bug，并且不影响商城功能的开发🙄
 
 ###### 	4、回到master，创建bug分支
 
@@ -288,11 +296,43 @@ endless@EndlessdeMacBook-Pro blog % git branch
 
 
 
+
+
+## GitHub
+
+![](img/whatgithub_1.png)
+
+
+
+### 什么是GitHub？
+
+###### 		确切的说 GitHub 是一家公司，位于旧金山，由 Chris Wanstrath, PJ Hyett 与Tom Preston-Werner 三位开发者在2008年4月创办。2008年4月10日，GitHub正式成立，地址：How people build software · GitHub ，主要提供基于git的版本托管服务。一经上线，它的发展速度惊为天人，截止目前，GitHub 已经发展成全球最大的开（同）源（性）社区。
+
+![](img/howusegithub.png)
+
+### 如何使用Github？
+
+![](img/20160509095442956.png)
+
+​	这张图片很生动、确切的描述了GitHub。😂
+
+##### GitHub除了写代码，还能干些什么？
+
+###### 	github 其中一位创始人[Chris](defunkt (Chris Wanstrath) · GitHub)也详细描述了[GitHub初创的前因后果](Startup Riot 2009 Keynote 路 GitHub)，他说道：
+
+###### 	Do whatever you want.
+
+
+
 ### 使用GitHub实现代码托管
 
-​	**案列**：今天在公司开发了a功能，但是回家需要继续开发a功能，这时就可以将本地代码提交到github上面，回到家将github代码clone到本自己的mac上继续开发a功能。然后在家开发完了a功能，第二天去公司需要继续开发b功能就需要把昨天在家开发的a功能给pull(拉)到公司的电脑上。
+![](img/gittogithub.png)
 
-###### 	1、将今天在公司写的代码提交到github上面	
+##### **案列1**：
+
+###### 		<u>**$今天在公司开发了a功能，但是回家需要继续开发a功能，这时就可以将本地代码提交到github上面，回到家将github代码clone到本自己的mac上继续开发a功能。然后在家开发完了a功能，第二天去公司需要继续开发b功能就需要把昨天在家开发的a功能给pull(拉)到公司的电脑上。$**</u>
+
+###### 		1、将今天在公司写的代码提交到github上面✌️😁
 
 ```
 git add .
@@ -301,7 +341,7 @@ git push origin master
 git push origin dev
 ```
 
-###### 	2、回到家将公司的代码给clone到本地
+###### 		2、回到家将公司的代码给clone到本地😩😩
 
 ```
 git clone github地址
@@ -313,7 +353,7 @@ git push origin master
 git push origin dev
 ```
 
-###### 	3、第二天回到公司
+###### 		3、第二天回到公司🙈
 
 ```
 git checkout dev
@@ -322,6 +362,56 @@ git pull origin dev
 ```
 
 ###### **总结** ：GitHub使用起来非常方便，当你写完代码只需要push到GitHub上就行了，需要再次开发的时候只需pull到本地。
+
+
+
+##### **案列2**：
+
+###### 		<u>**今天在公司开发新功能A（完成50%）提交完代码，下班。回到家中pull才发现在公司忘记push到GitHub上面去了，此时你根据记忆继续开发功能A（完成%30），又新开发了B功能（50%），然后push睡觉。第二天回到公司**</u>
+
+###### 		1、今天在公司开发新功能A（完成50%）提交完代码，下班。
+
+```
+在开公司当苦逼写代码🧐
+git add .
+git commit -m '公司开发A功能（50%）'
+```
+
+###### 		![](img/gitadd.png)
+
+
+
+###### 		2、回到家中pull才发现在公司忘记push到GitHub上面去了，此时你根据记忆继续开发功能A（完成%30），又新开发了B功能	（50%），然后push睡觉。😴
+
+```
+git pull origin dev 
+发现没有更新
+凭借记忆努力写代码中 😭😭😭
+git add .
+git commit -m '在家通过记忆对A功能继续开发30%；还开发了B功能'
+git push origin dev
+```
+
+###### 		3、第二天回到公司，继续开发A功能剩下的20%和B功能剩下的50%。  👀💰
+
+![](img/pullmerge.png)
+
+```
+git push origin dev
+此时会提醒合并冲突，因为昨天在公司和在家都对A功能进行了开发，在合并时会发生冲突，此时需要我们收到解决它😊
+继续开发A功能剩下的20%和B功能剩下的50%
+.....
+git add .
+git commit -m '项目开发完成'
+git push origin dev
+git checkout master
+git merge dev
+git push origin master
+```
+
+
+
+
 
 
 
