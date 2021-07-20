@@ -1,7 +1,11 @@
-##  如何使用Git和GitHub
-
 
 ![](./img/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy91RFJrTVdMaWEyOGdmYkNUaFFvemtIM0lCemRTTTVJckFadjVDakM3QTJjU0wwS3JRQVFJZkQ3a2liQ2pwUHRjandFSFdpY0hGbXc1TTlHcjZWTGpEV2xpY0EvNjQw.png)
+
+------
+
+
+
+## 如何使用Git和GitHub
 
 ### 什么是Git？🥸
 
@@ -9,15 +13,15 @@
 
 ​	首现我们需要知道
 
-​			工作区：改动（增删文件和内容）
+​			1、工作区：改动（增删文件和内容）
 
-​			暂存区：输入命令：`git add 改动的文件名`，此次改动就放到了 ‘暂存区’
+​			2、暂存区：输入命令：`git add 改动的文件名`，此次改动就放到了 ‘暂存区’
 
-​			本地仓库(简称：本地)：输入命令：`git commit 此次修改的描述`，此次改动就放到了 ’本地仓库’，每个 commit，我叫它为一个 ‘版			本’。
+​			3、本地仓库(简称：本地)：输入命令：`git commit 此次修改的描述`，此次改动就放到了 ’本地仓库’，每个 commit，我叫它为一个 					‘版本’。
 
-​			远程仓库(简称：远程)：输入命令：`git push 远程仓库`，此次改动就放到了 ‘远程仓库’（GitHub 等)
+​			4、远程仓库(简称：远程)：输入命令：`git push 远程仓库`，此次改动就放到了 ‘远程仓库’（GitHub 等)
 
-​			commit-id：输出命令：`git log`，最上面那行 `commit xxxxxx`，后面的字符串就是 commit-id
+​			5、commit-id：输出命令：`git log`，最上面那行 `commit xxxxxx`，后面的字符串就是 commit-id
 
 
 
@@ -209,6 +213,8 @@ endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html
 
 ### 	![](img/4.png)
 
+------
+
 
 
 ### 分支（master）:
@@ -302,6 +308,8 @@ endless@EndlessdeMacBook-Pro blog % git branch
 
 ![](img/whatgithub_1.png)
 
+------
+
 
 
 ### 什么是GitHub？
@@ -310,17 +318,25 @@ endless@EndlessdeMacBook-Pro blog % git branch
 
 ![](img/howusegithub.png)
 
+
+
 ### 如何使用Github？
 
 ![](img/20160509095442956.png)
 
-​	这张图片很生动、确切的描述了GitHub。😂
+###### 		这张图片很生动、确切的描述了GitHub。😂
 
-##### GitHub除了写代码，还能干些什么？
+
+
+##### **GitHub除了写代码，还能干些什么？**
 
 ###### 	github 其中一位创始人[Chris](defunkt (Chris Wanstrath) · GitHub)也详细描述了[GitHub初创的前因后果](Startup Riot 2009 Keynote 路 GitHub)，他说道：
 
 ###### 	Do whatever you want.
+
+
+
+------
 
 
 
@@ -409,7 +425,7 @@ git merge dev
 git push origin master
 ```
 
-
+------
 
 
 
