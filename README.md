@@ -445,17 +445,21 @@ git pull origin	获取代码
 
 
 
-> 
+
+
+
+
+
+------
+
+### 推荐阅读：
+
+
+> ##### [一起学习Django👍](https://github.com/epover/LearnDjango)
 >
-> > ### 推荐阅读：
-> >
-> > ##### [一起学习Django👍](https://github.com/epover/LearnDjango)
-> >
-> > ##### [学习JavaScript](https://github.com/epover/JavaScript)
-> >
-> > ##### [一起学习WebService👍](https://github.com/epover/WebService) 
-> >
-> > ##### **[Angular团队提交规范👍](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)**
+> ##### [学习JavaScript](https://github.com/epover/JavaScript)
 >
-> 
+> ##### [一起学习WebService👍](https://github.com/epover/WebService) 
+>
+> ##### **[Angular团队提交规范👍](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)**
 
