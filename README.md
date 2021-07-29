@@ -429,9 +429,7 @@ git push origin master
 
 ------
 
-##### 总结：
-
-​	常用命令
+##### 总结：常用命令
 
 ```
 git remote add origin https://github.com/epover/JavaScript.git
