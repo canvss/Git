@@ -37,7 +37,7 @@
 
 ```
 brew install git
-git -version
+git -versions
 ```
 
 ### git常用命令
@@ -52,6 +52,7 @@ git reset --hard 版本号
 git reset HEAD 文件名
 git checkout -- 文件名
 git -help	查看帮助
+git remote rm origin 删除远程仓库
 ```
 
 
@@ -346,14 +347,15 @@ endless@EndlessdeMacBook-Pro blog % git branch
 
 ##### **案列1**：
 
-###### 		<u>**$今天在公司开发了a功能，但是回家需要继续开发a功能，这时就可以将本地代码提交到github上面，回到家将github代码clone到本自己的mac上继续开发a功能。然后在家开发完了a功能，第二天去公司需要继续开发b功能就需要把昨天在家开发的a功能给pull(拉)到公司的电脑上。$**</u>
+###### 		**<u>今天在公司开发了a功能，但是回家需要继续开发a功能，这时就可以将本地代码提交到github上面，回到家将github代码clone到本自己的mac上继续开发a功能。然后在家开发完了a功能，第二天去公司需要继续开发b功能就需要把昨天在家开发的a功能给pull(拉)到公司的电脑上。</u>**
 
 ###### 		1、将今天在公司写的代码提交到github上面✌️😁
 
 ```
 git add .
 git commit -m '在公司写了A功能70%'
-git push origin master
+git remote add origin https://github.com/epover/git.git
+git push -u origin master	或者 git push origin master
 git push origin dev
 ```
 
@@ -426,6 +428,19 @@ git push origin master
 ```
 
 ------
+
+##### 总结：
+
+​	常用命令
+
+```
+git remote add origin https://github.com/epover/JavaScript.git
+git remote remove origin 	删除origin
+git push origin	推送代码
+git pull origin	获取代码
+```
+
+
 
 
 
