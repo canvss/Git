@@ -440,7 +440,21 @@ git pull origin	获取代码
 
 
 
+### 常见问题：
 
+**1、Github开发人员在七夕搞事：remote: Support for password authentication was removed on August 13, 2021**
+
+**官方解释：https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/**
+
+**修改token的动机**
+
+###### 我们描述了我们的动机，因为我们宣布了对 API 身份验证的类似更改，如下所示：近年来，GitHub 客户受益于 GitHub.com 的许多安全增强功能，例如双因素身份验证、登录警报、经过验证的设备、防止使用泄露密码和 WebAuthn 支持。 这些功能使攻击者更难获取在多个网站上重复使用的密码并使用它来尝试访问您的 GitHub 帐户。 尽管有这些改进，但由于历史原因，未启用双因素身份验证的客户仍能够仅使用其GitHub 用户名和密码继续对 Git 和 API 操作进行身份验证。从 2021 年 8 月 13 日开始，我们将在对 Git 操作进行身份验证时不再接受帐户密码，并将要求使用基于令牌（token）的身份验证，例如个人访问令牌（针对开发人员）或 OAuth 或 GitHub 应用程序安装令牌（针对集成商） GitHub.com 上所有经过身份验证的 Git 操作。 您也可以继续在您喜欢的地方使用 SSH 密钥（如果你要使用ssh密钥可以参考）
+
+**解决办法：**
+
+创建token：https://github.com/settings/tokens	
+
+将token添加到远程仓库中：git remote set-url origin https://<your_token>@github.com/<USERNAME>/<REPO>.git			
 
 
 
@@ -455,11 +469,5 @@ git pull origin	获取代码
 ### 推荐阅读：
 
 
-> ##### [学习Django😊](https://github.com/epover/LearnDjango)
->
-> ##### [学习JavaScript👍](https://github.com/epover/JavaScript)
->
-> ##### [一起学习WebService🥸](https://github.com/epover/WebService) 
->
-> ##### **[Angular团队提交规范🙈](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)**
+> ##### **[如何给老婆解释什么是RESTful](https://zhuanlan.zhihu.com/p/30396391)**
 
