@@ -1,6 +1,6 @@
 ![](img/rixan4h4z8y94eq89som.png)
 
-原文地址：https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
+原文地址：https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
 
 作者：Lydia Hallie
 
