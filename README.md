@@ -442,7 +442,7 @@ git pull origin	获取代码
 
 ### 常见问题：
 
-**1、Github开发人员在七夕搞事：remote: Support for password authentication was removed on August 13, 2021**
+**1、remote: Support for password authentication was removed on August 13, 2021**
 
 **官方解释：https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/**
 
