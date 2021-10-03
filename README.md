@@ -454,7 +454,9 @@ git pull origin	获取代码
 
 创建token：https://github.com/settings/tokens	
 
-将token添加到远程仓库中：git remote set-url origin https://<your_token>@github.com/USERNAME/REPO			
+将token添加到远程仓库中：git remote set-url origin https://<your_token>@github.com/USERNAME/REPO	
+
+例如：git remote set-url origin https://ghp_7WkOwfkDasaJg37c1osaseutaskFshyasvswUzJCLrIsdadaYm@github.com/epover/restful-api.git
 
 
 
