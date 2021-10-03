@@ -454,7 +454,7 @@ git pull origin	获取代码
 
 创建token：https://github.com/settings/tokens	
 
-将token添加到远程仓库中：git remote set-url origin https://<your_token>@github.com/<USERNAME>/<REPO>.git			
+将token添加到远程仓库中：git remote set-url origin https://<your_token>@github.com/USERNAME/REPO			
 
 
 
