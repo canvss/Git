@@ -466,10 +466,4 @@ git pull origin	获取代码
 
 
 
-------
-
-### 推荐阅读：
-
-
-> ##### **[如何给老婆解释什么是RESTful](https://zhuanlan.zhihu.com/p/30396391)**
 
