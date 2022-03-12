@@ -3,11 +3,9 @@
 
 
 
-## 如何使用Git和GitHub
+## 什么是Git？
 
-### 什么是Git？🥸
-
-​	Git 是一个免费的开源 分布式版本控制系统，旨在快速高效地处理从小到大的所有项目。😄
+​	Git 是一个免费的开源 分布式版本控制系统，旨在快速高效地处理从小到大的所有项目。
 
 ​	首现我们需要知道
 
@@ -55,7 +53,7 @@ git remote rm origin 删除远程仓库
 
 
 
-### blogs项目使用git案例,让大家对git又一个认识
+### blogs项目使用git案例
 
 ###### 		1.首先写一个简单功能的html
 
@@ -204,15 +202,13 @@ M	index.html
 endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html 
 ```
 
-###### 总结：现在理解了Git是如何跟踪代码修改的，每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。✌️✌️
+###### 总结：现在理解了Git是如何跟踪代码修改的，每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。
 
 
 
 
 
 ### 	![](img/4.png)
-
-------
 
 
 
@@ -303,13 +299,11 @@ endless@EndlessdeMacBook-Pro blog % git branch
 
 
 
-## GitHub
+
 
 ![](img/whatgithub_1.png)
 
-------
-
-
+## GitHub
 
 ### 什么是GitHub？
 
@@ -323,7 +317,7 @@ endless@EndlessdeMacBook-Pro blog % git branch
 
 ![](img/20160509095442956.png)
 
-###### 		这张图片很生动、确切的描述了GitHub。😂
+###### 		这张图片很生动、确切的描述了GitHub。
 
 
 
@@ -332,10 +326,6 @@ endless@EndlessdeMacBook-Pro blog % git branch
 ###### 	github 其中一位创始人[Chris](defunkt (Chris Wanstrath) · GitHub)也详细描述了[GitHub初创的前因后果](Startup Riot 2009 Keynote 路 GitHub)，他说道：
 
 ###### 	Do whatever you want.
-
-
-
-------
 
 
 
@@ -425,7 +415,7 @@ git merge dev
 git push origin master
 ```
 
-------
+
 
 ##### 总结：常用命令
 
@@ -455,7 +445,6 @@ git pull origin	获取代码
 将token添加到远程仓库中：git remote set-url origin https://<your_token>@github.com/USERNAME/REPO	
 
 例如：git remote set-url origin https://ghp_7WkOwfkDasaJg37c1osaseutaskFshyasvswUzJCLrIsdadaYm@github.com/epover/restful-api.git
-
 
 
 
