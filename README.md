@@ -194,7 +194,7 @@ M	index.html
 endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html 
 ```
 
-###### 总结：现在理解了Git是如何跟踪代码修改的，每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。
+##### 总结：现在理解了Git是如何跟踪代码修改的，每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。
 
 
 
