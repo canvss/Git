@@ -208,9 +208,9 @@ endless@EndlessdeMacBook-Pro blogs % git checkout -- index.html
 
 ##### 			案列：
 
-###### 					**<u>现在我们的项目有登录、注册、直播功能，现在需要新增功能为商城，商城功能写了一半（比如花了半个月），现在直播功能出现bug,需要调试我们应该怎么办呢？难道要放弃快完成的商城功能，回到直播功能调试bug吗？这里我们可以用到分支了。</u>**
+###### 					**现在我们的项目有登录、注册、直播功能，现在需要新增功能为商城，商城功能写了一半（比如花了半个月），现在直播功能出现bug,需要调试我们应该怎么办呢？难道要放弃快完成的商城功能，回到直播功能调试bug吗？这里我们可以用到分支了。**
 
-###### 	1、在写新功能模块时，创建dev分支用于开发新的模块，再创建一个bug分支用于调试bug
+- 1、在写新功能模块时，创建dev分支用于开发新的模块，再创建一个bug分支用于调试bug
 
 ```
 endless@EndlessdeMacBook-Pro blogs % git branch dev 	创建dev分支
@@ -220,7 +220,7 @@ endless@EndlessdeMacBook-Pro blogs % git branch		查看分支
 
 ```
 
-###### 	2、切换分支
+- 2、切换分支
 
 ```
 endless@EndlessdeMacBook-Pro blogs % git checkout dev		切换到dev分支
@@ -229,7 +229,7 @@ M	README.md
 Switched to branch 'dev'
 ```
 
-###### 	3、在dev分支下开发商城功能	
+- 3、在dev分支下开发商城功能	
 
 ```
 git checkout dev
@@ -239,7 +239,7 @@ git checkout dev
 
 此时商城功能开发到一半，直播功能出现bug，我们需要提交商城功能代码，切换到master主分支，创建一个bug分支用于调试bug，并且不影响商城功能的开发
 
-###### 	4、回到master，创建bug分支
+- 4、回到master，创建bug分支
 
 ```
 endless@EndlessdeMacBook-Pro blog % git log		#此时在master分支上并没有商城功能完成50%
@@ -255,11 +255,11 @@ Switched to branch 'bug'
 
 ​	现在bug修复完成![](img/gitbug.png)		
 
-###### 	5、此时我们需要切回master上，将bug合并到master分支上。
+- 5、此时我们需要切回master上，将bug合并到master分支上。
 
 ![](img/gitbug_master.png)
 
-###### 	6、现在切换到dev分支继续开发商城功能
+- 6、现在切换到dev分支继续开发商城功能
 
 ```
 git checkout dev
@@ -273,11 +273,11 @@ CONFLICT (content): Merge conflict in index.html
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-###### 	 7、手动解决冲突，就能完成合并 
+- 7、手动解决冲突，就能完成合并 
 
 ![](img/gitdev_master.png)
 
-###### 	8、删除调试完成bug的分支(git branch bug -d) 
+- 8、删除调试完成bug的分支(git branch bug -d) 
 
 ```
 endless@EndlessdeMacBook-Pro blog % git branch bug -d
@@ -323,9 +323,9 @@ github 其中一位创始人[Chris](defunkt (Chris Wanstrath) · GitHub)也详�
 
 ##### **案列1**：
 
-###### 		<u>今天在公司开发了a功能，但是回家需要继续开发a功能，这时就可以将本地代码提交到github上面，回到家将github代码clone到本自己的mac上继续开发a功能。然后在家开发完了a功能，第二天去公司需要继续开发b功能就需要把昨天在家开发的a功能给pull(拉)到公司的电脑上。</u>
+###### 		今天在公司开发了a功能，但是回家需要继续开发a功能，这时就可以将本地代码提交到github上面，回到家将github代码clone到本自己的mac上继续开发a功能。然后在家开发完了a功能，第二天去公司需要继续开发b功能就需要把昨天在家开发的a功能给pull(拉)到公司的电脑上。
 
-###### 		1、将今天在公司写的代码提交到github上面
+- 1、将今天在公司写的代码提交到github上面
 
 ```
 git add .
@@ -335,7 +335,7 @@ git push -u origin master	或者 git push origin master
 git push origin dev
 ```
 
-###### 		2、回到家将公司的代码给clone到本地
+- 2、回到家将公司的代码给clone到本地
 
 ```
 git clone github地址
@@ -347,7 +347,7 @@ git push origin master
 git push origin dev
 ```
 
-###### 		3、第二天回到公司
+- 3、第二天回到公司
 
 ```
 git checkout dev
@@ -361,9 +361,9 @@ git pull origin dev
 
 ##### **案列2**：
 
-###### 		<u>**今天在公司开发新功能A（完成50%）提交完代码，下班。回到家中pull才发现在公司忘记push到GitHub上面去了，此时你根据记忆继续开发功能A（完成%30），又新开发了B功能（50%），然后push睡觉。第二天回到公司**</u>
+###### 		**今天在公司开发新功能A（完成50%）提交完代码，下班。回到家中pull才发现在公司忘记push到GitHub上面去了，此时你根据记忆继续开发功能A（完成%30），又新开发了B功能（50%），然后push睡觉。第二天回到公司**
 
-###### 		1、今天在公司开发新功能A（完成50%）提交完代码，下班。
+- 1、今天在公司开发新功能A（完成50%）提交完代码，下班。
 
 ```
 在开公司当苦逼写代码
@@ -373,9 +373,7 @@ git commit -m '公司开发A功能（50%）'
 
 ###### 		![](img/gitadd.png)
 
-
-
-###### 		2、回到家中pull才发现在公司忘记push到GitHub上面去了，此时你根据记忆继续开发功能A（完成%30），又新开发了B功能	（50%），然后push睡觉。
+- 2、回到家中pull才发现在公司忘记push到GitHub上面去了，此时你根据记忆继续开发功能A（完成%30），又新开发了B功能	（50%），然后push睡觉。
 
 ```
 git pull origin dev 
@@ -386,7 +384,7 @@ git commit -m '在家通过记忆对A功能继续开发30%；还开发了B功能
 git push origin dev
 ```
 
-###### 		3、第二天回到公司，继续开发A功能剩下的20%和B功能剩下的50%。  
+- 3、第二天回到公司，继续开发A功能剩下的20%和B功能剩下的50%。  
 
 ![](img/pullmerge.png)
 
