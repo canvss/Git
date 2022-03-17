@@ -434,6 +434,16 @@ git pull origin	获取代码
 
 
 
+**2、kex_exchange_identification: read: Connection reset by peer
+Connection reset by 20.205.243.178 port 22
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.**
+
+**解决办法：**
+
+生成新的公钥：ssh-keygen-t rsa -C"邮箱地址"
+
 
 
 
